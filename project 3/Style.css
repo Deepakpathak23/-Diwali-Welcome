@@ -1,0 +1,325 @@
+body {
+  margin: 0;
+}
+
+.jhalar {
+  width: 220px;
+  margin-bottom: -190px;
+}
+
+.hero-section {
+  /* min-height: 100vh; */
+  background-image: url(img/orange-backdrop\ 1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.P-audio-container {
+  margin-left: 15rem;
+}
+.hero-section p {
+  font-size: 46px;
+  font-family: "Salsa", cursive;
+  max-width: 400px;
+}
+
+.autio-container {
+  background-color: #fbd8a4;
+  border-radius: 45px;
+  padding: 0px 0px 0px 10px;
+  max-width: max-content;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.horizontal-line-box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 1010px;
+  margin-inline: auto;
+  padding: 1rem;
+  margin-bottom: 2rem;
+
+  .horizontal-line {
+    width: 468px;
+    height: 4px;
+    background-color: #fbd8a4;
+    border-radius: 10px;
+  }
+  .circle {
+    width: 10px;
+    height: 10px;
+    background-color: #fbd8a4;
+    border-radius: 100%;
+  }
+}
+
+.second-section {
+  background-color: #f99501;
+  padding-top: 0.1px;
+  padding-inline: 1rem;
+  img {
+    max-width: 1377px;
+    width: 100%;
+    display: block;
+    margin-inline: auto;
+  }
+  .para {
+    text-align: center;
+    font-weight: 400;
+    font-size: 54px;
+    font-family: "style script";
+  }
+}
+
+.girl-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 300px;
+}
+
+.greeting {
+  background-color: white;
+  padding: 70px;
+  max-width: 500px;
+  border-radius: 24px;
+}
+
+.greeting p {
+  font-size: 2.5rem;
+  font-family: "Salsa";
+}
+
+#girl {
+  max-width: 380px;
+  width: 100%;
+  margin-left: -5rem;
+}
+
+.img-section{
+  background-color: #ffffff;
+  display: flex;
+  max-width: 1377px;
+  margin-inline: auto;
+  border-radius: 1rem;
+}
+
+.img-section img{
+  width: 600px;
+  padding: 30px;
+}
+
+.third-section p{
+  font-family: "salsa";
+  font-size: 24px;
+  padding-top: 20px;
+}
+
+.third-section h2{
+  text-align: start;
+  font-size: 70px;
+  font-family: "style script";
+  font-weight: 400;
+}
+
+.third-section .end{
+  margin-bottom: auto;
+  text-align: end;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #fbd8a4;
+  color: #000;
+}
+
+@media (max-width: 855px) {
+  .first-deepak {
+    display: block;
+    margin-left: auto;
+  }
+  .second-deepak {
+    display: none;
+  }
+
+  .P-audio-container {
+    margin-left: 1rem;
+  }
+  .jhalar {
+    margin-bottom: 0;
+  }
+  .hero-section p {
+    font-size: 32px;
+  }
+
+  .second-section {
+    margin: 0;
+    img {
+      max-width: 700px;
+    }
+    .para {
+      font-size: 40px;
+      text-align: center;
+    }
+  }
+  .horizontal-line-box {
+    max-width: 600px;
+    gap: 7px;
+    padding: 10px;
+    .horizontal-line {
+      width: 450px;
+      height: 4px;
+      background-color: #fbd8a4;
+      border-radius: 10px;
+    }
+    .circle {
+      width: 10px;
+      height: 10px;
+      background-color: #fbd8a4;
+      border-radius: 100%;
+      flex-shrink: 0;
+    }
+  }
+  .girl-section {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: 50px;
+  }
+
+  .greeting {
+    background-color: white;
+    padding: 40px;
+    max-width: 500px;
+    border-radius: 24px;
+  }
+  .greeting p {
+    font-size: 1.5rem;
+  }
+  #girl {
+    width: 250px;
+    margin-left: -4rem;
+  }
+
+  .img-section{
+    background-color: #ffffff;
+    display: flex;
+    max-width: 700px;
+    margin-inline: auto;
+    border-radius: 1rem;
+  }
+  
+  .img-section img{
+    width: 300px;
+    padding: 20px;
+  }
+
+  .third-section p{
+    font-family: "salsa";
+    font-size: 20px;
+    padding-top: 20px;
+  }
+  
+  .third-section h2{
+    text-align: start;
+    font-size: 40px;
+  }
+  
+  .third-section .end{
+    margin-bottom: auto;
+    text-align: end;
+  }
+}
+
+@media (max-width: 500px) {
+  #span,
+  .bar {
+    display: none;
+  }
+  .autio-container {
+    justify-content: flex-start;
+  }
+  .hero-section p {
+    font-size: 28px;
+  }
+  .first-deepak {
+    width: 100%;
+    max-width: 300px;
+  }
+  .second-section {
+    margin: 0;
+    img {
+      max-width: 380px;
+    }
+  }
+
+  .horizontal-line-box {
+    max-width: 300px;
+    gap: 4px;
+    padding: 6px;
+    .horizontal-line {
+      width: 300px;
+      height: 2px;
+      background-color: #fbd8a4;
+      border-radius: 10px;
+    }
+    .circle {
+      width: 5px;
+      height: 5px;
+      background-color: #fbd8a4;
+      border-radius: 100%;
+      flex-shrink: 0;
+    }
+  }
+
+  .girl-section {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: 20px;
+  }
+
+  .greeting {
+    background-color: white;
+    padding: 15px;
+    max-width: 400px;
+    border-radius: 24px;
+  }
+  .greeting p {
+    font-size: 1rem;
+  }
+  #girl {
+    width: 150px;
+    margin-left: -2rem;
+  }
+
+  .img-section{
+    background-color: #ffffff;
+    display: flex;
+    max-width: 380px;
+    margin-inline: auto;
+    border-radius: 1rem;
+  }
+  
+  .img-section img{
+    width: 150px;
+    padding: 20px;
+  }
+
+  .third-section p{
+    font-family: "salsa";
+    font-size: 1rem;
+    padding-top: 20px;
+  }
+  
+  .third-section h2{
+    text-align: start;
+    font-size: 30px;
+  }
+  
+  .third-section .end{
+    margin-bottom: auto;
+    text-align: end;
+  }
+}
